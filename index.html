@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7efff">
+  <title>The Most Beautiful Girl ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-card">
+      <div class="welcome-ornament" aria-hidden="true">✦</div>
+      <p class="welcome-overline">A SPECIAL INVITATION</p>
+      <div class="welcome-divider"><span></span>♡<span></span></div>
+      <h1 class="welcome-title">A little moment<br><em>just for you</em></h1>
+      <p class="welcome-copy">فيه حكاية حلوة مستنياكي…</p>
+      <button class="enter-invitation" id="enterInvitation" type="button">
+        <span>افتحي الدعوة</span>
+        <span class="enter-arrow" aria-hidden="true">←</span>
+      </button>
+      <p class="welcome-footnote">WITH LOVE, ALWAYS</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="intro" aria-label="المقدمة">
+      <div class="eyebrow">A LITTLE SOMETHING FOR YOU</div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/main-photo.jpg" alt="الصورة الرئيسية">
+        <span class="portrait-heart" aria-hidden="true">♥</span>
+      </div>
+      <h1 class="main-caption" dir="ltr">The Most Beautiful Girl <span>❤️</span></h1>
+      <p class="intro-note">فيه حكايات حلوة بتستاهل تتوثّق… ودي واحدة منها.</p>
+      <a class="scroll-link" href="#gallery">كمّلي وشوفي الذكريات <span>↓</span></a>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-kicker">OUR LITTLE MOMENTS</div>
+      <h2>حكايتنا في صور ❤️</h2>
+      <p class="section-description">تفاصيل صغيرة، وضحكات كتير، وذكريات غالية.</p>
+      <div class="gallery-grid">
+        <figure class="photo-card photo-tall"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-1.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card photo-wide"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-2.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-3.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-4.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card photo-wide"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-5.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-6.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-7.jpg" alt="ذكرى من صورنا"></button></figure>
+        <figure class="photo-card photo-tall"><button class="photo-open" type="button" aria-label="عرض الصورة كاملة"><img src="assets/gallery-8.jpg" alt="ذكرى من صورنا"></button></figure>
+      </div>
+      <p class="gallery-hint">اضغط على أي صورة عشان تشوفها بحجم أكبر</p>
+    </section>
+
+    <section class="ending">
+      <div class="ending-heart">♡</div>
+      <div class="section-kicker">WITH LOVE</div>
+      <h2>أجمل الحكايات لسه جاية</h2>
+      <p class="closing-message" dir="ltr">Ever since you came into my life you've turned everything upside down 😂, But I just want you to know that I'm really happy you're in it. ❤️</p>
+      <div class="signature">❤️</div>
+    </section>
+  </main>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="إغلاق">×</button>
+    <img src="" alt="صورة مكبرة">
+  </div>
+  <footer>Made with love</footer>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="تشغيل الموسيقى" aria-pressed="false">
+    <span class="music-icon" aria-hidden="true">♫</span>
+    <span class="music-label">تشغيل الموسيقى</span>
+  </button>
+  <audio id="backgroundMusic" preload="auto" loop playsinline><source src="assets/background-music.mp3" type="audio/mpeg"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
